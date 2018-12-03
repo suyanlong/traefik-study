@@ -12,6 +12,12 @@
 
 traefik -c traefil.toml
 
+## 快速学习
+https://github.com/containous/traefik/tree/master/examples/quickstart/
+
+## 配置文档主要说明
+https://docs.traefik.io/configuration/commons/
+
 ## 镜像启动
 docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/etc/traefik/traefik.toml traefik
 
